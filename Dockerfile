@@ -6,8 +6,8 @@ COPY go.mod ./
 COPY *.go ./
 COPY static ./static
 
-RUN go build -o /gocicd_uwu
+RUN go build -o /belajar-cicd-pemula
 
-RUN CGO_ENABLED=0 GOOS=linux go build -o /gocicd_uwu
+RUN CGO_ENABLED=0 GOOS=linux go build -o /belajar-cicd-pemula
 ENV PORT 8080
-CMD ["/gocicd_uwu"]
+CMD ["/belajar-cicd-pemula"]
