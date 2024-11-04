@@ -10,4 +10,4 @@ RUN go build -o /gocicd_uwu
 
 RUN CGO_ENABLED=0 GOOS=linux go build -o /gocicd_uwu
 ENV PORT 8080
-CMD ["/belajar-cicd-pemula"]
+CMD ["/gocicd_uwu"]
